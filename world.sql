@@ -22,6 +22,8 @@ DROP DATABASE IF EXISTS world;
 CREATE DATABASE world;
 USE world;
 
+
+
 --
 -- Table structure for table `cities`
 --
@@ -35,6 +37,7 @@ CREATE TABLE `cities` (
   `population` int(11) NOT NULL default '0',
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=4080 DEFAULT CHARSET=utf8mb4;
+
 
 --
 -- Dumping data for table `cities`
