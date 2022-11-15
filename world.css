@@ -28,13 +28,26 @@ header h1{
 }
 
 #lookup{
-background-color: rgb(15, 191, 91);
+background-color: rgb(21, 130, 32);
 color: white;
 padding:10px;
 margin:5px;
 border-radius: 3px;
 text-decoration: none;
 border: none;
+}
+
+#lookup_City{
+    background-color: rgb(27, 45, 146);
+    color: white;
+    padding:10px;
+    margin:5px;
+    border-radius: 3px;
+    text-decoration: none;
+    border: none;
+    padding-left:15px;
+    padding-right: 15px;
+
 }
 
 table{
