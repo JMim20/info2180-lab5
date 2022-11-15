@@ -19,12 +19,23 @@ header h1{
 
 }
 
-.controls #country{
+#country{
+    border: white;
     padding: 10px;
-    border-radius: 3px;
-    margin:5px;
-    border-color: white;
-    box-shadow: 5px 5px grey;
+    padding-left: 5px;
+    padding-right: 50%;
+    margin: 15px;
+    margin-right: 0px;
+    margin-left: 120px;
+    border-radius: 5px;
+    box-shadow: 1px 1px grey;
+    display: block;
+}
+
+#controls{
+    text-align: center;
+    padding: 10px;
+    
 }
 
 #lookup{
@@ -32,21 +43,27 @@ background-color: rgb(21, 130, 32);
 color: white;
 padding:10px;
 margin:5px;
-border-radius: 3px;
+border-radius: 5px;
 text-decoration: none;
 border: none;
+align-content: center;
+justify-content: center;
+
 }
+
 
 #lookup_City{
     background-color: rgb(27, 45, 146);
     color: white;
     padding:10px;
     margin:5px;
-    border-radius: 3px;
+    border-radius: 5px;
     text-decoration: none;
     border: none;
     padding-left:15px;
     padding-right: 15px;
+    align-content: center;
+    justify-content: center;
 
 }
 
@@ -54,21 +71,28 @@ table{
     background-color: azure;
     border-collapse: collapse;
     width: 75%;
+    margin:15px;
+    padding: 10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
 td, th{
-    padding:5px;
+    padding:10px;
     border: 2px solid rgb(126, 147, 154);
     text-align: left;
 }
 
 
-tr :nth-child(even){
-    background-color: rgb(197, 202, 205);
-}
+
 
 th{
-    background-color: grey;
+    background-color: rgb(152, 150, 150);
     padding: 10px;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(157, 193, 244);
 }
